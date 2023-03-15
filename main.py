@@ -7,7 +7,7 @@ def main():
   flag = True
   if not email[0].isalpha():
     flag = False
-    lenemail = len(email)
+  lenemail = len(email)
   if lenemail <= 5 or lenemail >= 30:
     flag = False
   if email.find('@') == -1:
